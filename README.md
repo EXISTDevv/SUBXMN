@@ -82,3 +82,9 @@ Install on linux
 
 ### build
 `cd SUBXMN/src && make -f makefile.unix`
+
+<table>
+  <th colspan=1>Masternode Installation Script:</th>
+  <tr><td>Remote Masternode VPS, Ubuntu 16.04 LTS, 1GB RAM, 1 CPU Core </td></td>  
+<tr><td>https://github.com/EXISTDevv/SUBX_masternode_setup</td></td>
+</table>
