@@ -17,19 +17,20 @@ From time to time a pull request will become outdated. If this occurs, and the p
 Issues with no commits will be given a similar warning, and closed after 15 days from their last activity. Issues closed in this manner will be labeled 'stale'.
 
 
-# Install on linux:
+Install on linux
+----------------
 
--Prepare needed library to compile your daemon
-apt-get install git automake build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev software-properties-common libgmp-dev unzip -y
+### Prepare needed library to compile your daemon
+`apt-get install git automake build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev software-properties-common libgmp-dev unzip -y`
 
--Adding bitcoin apt repository
-sudo add-apt-repository ppa:bitcoin/bitcoin && sudo apt-get update
+### Adding bitcoin apt repository
+`sudo add-apt-repository ppa:bitcoin/bitcoin && sudo apt-get update`
 
--installing libdb and miniupnp from bitcoin repository
-pt-get install libdb4.8-dev libdb4.8++-dev libminiupnpc-dev
+### installing libdb and miniupnp from bitcoin repository
+`apt-get install libdb4.8-dev libdb4.8++-dev libminiupnpc-dev`
 
--clone source code
-git clone https://github.com/EXISTDevv/SUBXMN.git
+### clone source code
+`git clone https://github.com/EXISTDevv/SUBXMN.git`
 
--build
-cd SUBXMN/src && make -f makefile.unix
+### build
+`cd SUBXMN/src && make -f makefile.unix`
