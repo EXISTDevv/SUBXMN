@@ -57,7 +57,7 @@ Issues with no commits will be given a similar warning, and closed after 15 days
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th></tr>
 <tr><td>1-300</td><td>2000,000,000 SUBX</td><td>Initial Premine to Former Chain</td></tr>
 <tr><td>301-50,000</td><td>100 SUBX</td><td>Closed Mining</td></tr>
-<tr><th colspan=4>PoS Phase</th></tr>
+<tr><th colspan=2>PoS Phase</th></tr>
 <tr><th>Block Height</th><th colspan=1>Reward Amount</th></tr>
 <tr><td>5001-*</td><td>Variable reward (Triangle wave, 20 blocks)</td></tr>
   <tr><td>Max reward</td><td>1000,000 SUBX</td></tr>
